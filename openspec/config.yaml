@@ -1,0 +1,31 @@
+schema: spec-driven
+
+context: |
+  Proyecto: Billetera y Presupuesto Personal (Estilo YNAB)
+  Stack Tecnológico: React, TypeScript, Vite, TailwindCSS, Lucide-react, Recharts
+  Persistencia: LocalStorage con soporte de Import/Export JSON
+  Idioma principal UI / Specs / Comunicación: Español
+  Convención de Código: Todo el código fuente (TypeScript, nombres de variables, interfaces, funciones, componentes) debe escribirse en Inglés.
+  Dominio: Finanzas personales, presupuesto base cero, gestión de planes de presupuesto, cuentas y multimoneda sin pasarelas reales.
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always include a "Non-goals" section
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
+
+# Per-operation guidance (optional)
+# Add advisory guidance for how apply and archive work should be conducted.
+# This is separate from artifact rules above.
+# Example:
+#   operations:
+#     apply:
+#       guidance:
+#         - Keep test summaries concise
+#     archive:
+#       guidance:
+#         - Summarize the archive outcome before finishing
